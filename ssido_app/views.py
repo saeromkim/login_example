@@ -13,7 +13,7 @@ def check_id(request):
 
 	if request.method =='GET':
 
-		print(request.GET.get('user_id',None))
+		print(request.GET.get('user_id',None)) #cmd에 출력
 		user_id = request.GET.get('user_id',None)
 
 		try:

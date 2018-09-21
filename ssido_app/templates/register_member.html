@@ -37,7 +37,7 @@
 				dataType: 'json',
 				success: function(response_result){
 
-					alert(response_result.result);
+					// alert(response_result.result);
 					if(response_result.result=='true'){
 						$("#id_check_result").html("중복");
 						$("#id_check_result").css({
@@ -79,7 +79,7 @@
 
 
 </head>
-<body>
+<body style="background-image: url(/static/img/sea.jpg); background-size: 100%">
 
 	<form method="post" name="frm" action="./register_member_db/">
 
